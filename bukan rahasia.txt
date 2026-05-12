@@ -1,1 +1,48 @@
-gausah dibuka
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 4dac845 hapus data
+PS C:\Users\USER\Documents\PRAKTIKUM GIT\TKJ B> git checkout main
+Previous HEAD position was 4dac845 hapus data
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\USER\Documents\PRAKTIKUM GIT\TKJ B> git add .
+PS C:\Users\USER\Documents\PRAKTIKUM GIT\TKJ B> git commit -m "gausah dibuka"
+[main 23cb52e] gausah dibuka
+ 1 file changed, 1 insertion(+)
+ create mode 100644 rahasia.txt
+PS C:\Users\USER\Documents\PRAKTIKUM GIT\TKJ B> git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (3/3), 258 bytes | 258.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/umarovk/TKJB.git
+   76e75fc..23cb52e  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\USER\Documents\PRAKTIKUM GIT\TKJ B> git add .
+PS C:\Users\USER\Documents\PRAKTIKUM GIT\TKJ B> git commit -m 'yy'
+[main a87c948] yy
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename rahasia.txt => bukan rahasia.txt (100%)
+PS C:\Users\USER\Documents\PRAKTIKUM GIT\TKJ B> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (2/2), 235 bytes | 235.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/umarovk/TKJB.git
+   23cb52e..a87c948  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\USER\Documents\PRAKTIKUM GIT\TKJ B>
+
